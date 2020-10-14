@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <script src="https://kit.fontawesome.com/36a5ffd25f.js" crossorigin="anonymous"></script>
+    <title>Spider UI</title>
+</head>
+<body>
+    <header class="nav-header">
+        <nav class="home-nav">
+            <div class="nav-left">
+                <img class="nav-logo" src="{% static 'images/8cAbGepLi 1.svg' %}" alt="" srcset="">
+                <div class="nav-logo-name">spider ui</div>
+            </div>
+            <div class="nav-right btn">
+                logout
+            </div>
+        </nav>
+    </header>
+    <main id="home">
+      <header class="title">Page Browser</header>
+
+      <div class="scraper-container">
+          <div class="scraper-number">1</div>
+          <div class="scraper-label">scrape</div>
+          <div class="scraper-site-main">
+            https://www.figma.com/file/67pQj2FeqkkZJOs x9zY53T/Spider?node-id=1%3A2
+          </div>
+          <div class="scrapper-site-secondary">
+            https://www.figma.com/file/67pQj2FeqkkZJOs x9z Y53T/Spider?node-id=1%3A2
+          </div>
+          <div class="scrapper-site-secondary">
+            https://www.figma.com/file/67pQj2FeqkkZJOs x9zY53T/Spider?node-id=1%3A2
+          </div>
+      </div>
+
+      <div class="scraper-container">
+        <div class="scraper-number">2</div>
+        <div class="scraper-label">scrape</div>
+        <div class="scraper-site-main">
+          https://www.figma.com/file/67pQj2FeqkkZJOs x9zY53T/Spider?node-id=1%3A2
+        </div>
+        <div class="scrapper-site-secondary report">
+            Page scraping in progress ......
+        </div>
+    </div>
+
+    <div class="scraper-container">
+        <div class="scraper-number">3</div>
+        <div class="scraper-label">scrape</div>
+        <div class="scraper-site-main">
+          https://www.figma.com/file/67pQj2FeqkkZJOs x9zY53T/Spider?node-id=1%3A2
+        </div>
+        <div class="scrapper-site-secondary report">
+                 No link has been scrapped yet for this page
+        </div>
+    </div>
+    </main>
+    <script src="{% static 'js/main.js' %}"></script>
+</body>
+</html>
