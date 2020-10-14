@@ -1,1 +1,1 @@
-web: gunicorn spider.wsgi --log-file -
+web: gunicorn Spider.wsgi --log-file -
